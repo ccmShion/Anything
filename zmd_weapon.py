@@ -184,7 +184,7 @@ def simulate_gacha_distribution(num_simulations=10000):
     """
     模拟抽卡分布并生成报告
     """
-    target_up_counts = [1, 2, 3, 4, 5, 6]
+    target_up_counts = [1, ]
 
     # 确定并行进程数
     num_processes = min(cpu_count(), 4)  # 限制最多使用4个进程，避免过度占用CPU
